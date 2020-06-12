@@ -1,0 +1,11 @@
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\bin\Debug\netcoreapp3.1\CadastroProduto.DataVo.deps.json
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\bin\Debug\netcoreapp3.1\CadastroProduto.DataVo.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\bin\Debug\netcoreapp3.1\CadastroProduto.DataVo.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\bin\Debug\netcoreapp3.1\CadastroProduto.Domain.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\bin\Debug\netcoreapp3.1\CadastroProduto.Domain.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\obj\Debug\netcoreapp3.1\CadastroProduto.DataVo.csprojAssemblyReference.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\obj\Debug\netcoreapp3.1\CadastroProduto.DataVo.AssemblyInfoInputs.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\obj\Debug\netcoreapp3.1\CadastroProduto.DataVo.AssemblyInfo.cs
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\obj\Debug\netcoreapp3.1\CadastroProduto.DataVo.csproj.CopyComplete
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\obj\Debug\netcoreapp3.1\CadastroProduto.DataVo.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.DataVo\obj\Debug\netcoreapp3.1\CadastroProduto.DataVo.pdb

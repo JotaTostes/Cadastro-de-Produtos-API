@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.DataVo\\CadastroProduto.DataVo.csproj": {}
+  },
+  "projects": {
+    "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.DataVo\\CadastroProduto.DataVo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.DataVo\\CadastroProduto.DataVo.csproj",
+        "projectName": "CadastroProduto.DataVo",
+        "projectPath": "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.DataVo\\CadastroProduto.DataVo.csproj",
+        "packagesPath": "C:\\Users\\joao_\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.DataVo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joao_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.Domain\\CadastroProduto.Domain.csproj": {
+                "projectPath": "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.Domain\\CadastroProduto.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.Domain\\CadastroProduto.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.Domain\\CadastroProduto.Domain.csproj",
+        "projectName": "CadastroProduto.Domain",
+        "projectPath": "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.Domain\\CadastroProduto.Domain.csproj",
+        "packagesPath": "C:\\Users\\joao_\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositorios\\cadastroProdutos-api\\cadastro-produto\\CadastroProduto.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joao_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

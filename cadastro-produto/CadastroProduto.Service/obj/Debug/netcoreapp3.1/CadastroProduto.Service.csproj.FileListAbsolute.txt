@@ -1,0 +1,15 @@
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\bin\Debug\netcoreapp3.1\CadastroProduto.Service.deps.json
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\bin\Debug\netcoreapp3.1\CadastroProduto.Service.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\bin\Debug\netcoreapp3.1\CadastroProduto.Service.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\bin\Debug\netcoreapp3.1\CadastroProduto.DataVo.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\bin\Debug\netcoreapp3.1\CadastroProduto.Domain.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\bin\Debug\netcoreapp3.1\CadastroProduto.Repository.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\bin\Debug\netcoreapp3.1\CadastroProduto.DataVo.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\bin\Debug\netcoreapp3.1\CadastroProduto.Repository.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\bin\Debug\netcoreapp3.1\CadastroProduto.Domain.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\obj\Debug\netcoreapp3.1\CadastroProduto.Service.csprojAssemblyReference.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\obj\Debug\netcoreapp3.1\CadastroProduto.Service.AssemblyInfoInputs.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\obj\Debug\netcoreapp3.1\CadastroProduto.Service.AssemblyInfo.cs
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\obj\Debug\netcoreapp3.1\CadastroProduto.Service.csproj.CopyComplete
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\obj\Debug\netcoreapp3.1\CadastroProduto.Service.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Service\obj\Debug\netcoreapp3.1\CadastroProduto.Service.pdb

@@ -1,0 +1,8 @@
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Domain\bin\Debug\netcoreapp3.1\CadastroProduto.Domain.deps.json
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Domain\bin\Debug\netcoreapp3.1\CadastroProduto.Domain.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Domain\bin\Debug\netcoreapp3.1\CadastroProduto.Domain.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Domain\obj\Debug\netcoreapp3.1\CadastroProduto.Domain.csprojAssemblyReference.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Domain\obj\Debug\netcoreapp3.1\CadastroProduto.Domain.AssemblyInfoInputs.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Domain\obj\Debug\netcoreapp3.1\CadastroProduto.Domain.AssemblyInfo.cs
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Domain\obj\Debug\netcoreapp3.1\CadastroProduto.Domain.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Domain\obj\Debug\netcoreapp3.1\CadastroProduto.Domain.pdb

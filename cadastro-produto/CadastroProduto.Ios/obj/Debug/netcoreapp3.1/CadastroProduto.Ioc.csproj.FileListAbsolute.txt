@@ -1,0 +1,17 @@
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.Ioc.deps.json
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.Ioc.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.Ioc.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.DataVo.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.Domain.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.Repository.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.Service.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.DataVo.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.Repository.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.Service.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\bin\Debug\netcoreapp3.1\CadastroProduto.Domain.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\obj\Debug\netcoreapp3.1\CadastroProduto.Ioc.csprojAssemblyReference.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\obj\Debug\netcoreapp3.1\CadastroProduto.Ioc.AssemblyInfoInputs.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\obj\Debug\netcoreapp3.1\CadastroProduto.Ioc.AssemblyInfo.cs
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\obj\Debug\netcoreapp3.1\CadastroProduto.Ioc.csproj.CopyComplete
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\obj\Debug\netcoreapp3.1\CadastroProduto.Ioc.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.Ios\obj\Debug\netcoreapp3.1\CadastroProduto.Ioc.pdb

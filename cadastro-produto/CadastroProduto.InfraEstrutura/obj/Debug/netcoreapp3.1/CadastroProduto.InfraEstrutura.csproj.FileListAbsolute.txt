@@ -1,0 +1,8 @@
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.InfraEstrutura\bin\Debug\netcoreapp3.1\CadastroProduto.InfraEstrutura.deps.json
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.InfraEstrutura\bin\Debug\netcoreapp3.1\CadastroProduto.InfraEstrutura.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.InfraEstrutura\bin\Debug\netcoreapp3.1\CadastroProduto.InfraEstrutura.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.InfraEstrutura\obj\Debug\netcoreapp3.1\CadastroProduto.InfraEstrutura.csprojAssemblyReference.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.InfraEstrutura\obj\Debug\netcoreapp3.1\CadastroProduto.InfraEstrutura.AssemblyInfoInputs.cache
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.InfraEstrutura\obj\Debug\netcoreapp3.1\CadastroProduto.InfraEstrutura.AssemblyInfo.cs
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.InfraEstrutura\obj\Debug\netcoreapp3.1\CadastroProduto.InfraEstrutura.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\CadastroProduto.InfraEstrutura\obj\Debug\netcoreapp3.1\CadastroProduto.InfraEstrutura.pdb
