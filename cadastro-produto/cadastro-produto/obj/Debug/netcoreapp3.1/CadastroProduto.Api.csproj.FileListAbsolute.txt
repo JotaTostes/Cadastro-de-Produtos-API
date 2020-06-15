@@ -147,3 +147,6 @@ C:\Repositorios\cadastroProdutos-api\cadastro-produto\cadastro-produto\obj\Debug
 C:\Repositorios\cadastroProdutos-api\cadastro-produto\cadastro-produto\obj\Debug\netcoreapp3.1\CadastroProduto.Api.csproj.CopyComplete
 C:\Repositorios\cadastroProdutos-api\cadastro-produto\cadastro-produto\obj\Debug\netcoreapp3.1\CadastroProduto.Api.dll
 C:\Repositorios\cadastroProdutos-api\cadastro-produto\cadastro-produto\obj\Debug\netcoreapp3.1\CadastroProduto.Api.pdb
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\cadastro-produto\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\cadastro-produto\obj\Debug\netcoreapp3.1\CadastroProduto.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Repositorios\cadastroProdutos-api\cadastro-produto\cadastro-produto\obj\Debug\netcoreapp3.1\CadastroProduto.Api.MvcApplicationPartsAssemblyInfo.cache
