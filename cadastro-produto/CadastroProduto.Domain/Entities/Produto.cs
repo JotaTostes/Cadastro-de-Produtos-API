@@ -14,5 +14,10 @@ namespace CadastroProduto.Domain.Entities
         public string NOME { get; set; }
         public int VALOR { get; set; }
         public int IDFORNECEDOR { get; set; }
+        public int QUANTIDADE { get; set; }
+        public int EXCLUIDO { get; set; }
+
+        [NotMapped]
+        public Fornecedor Fornecedor { get; set; }
     }
 }

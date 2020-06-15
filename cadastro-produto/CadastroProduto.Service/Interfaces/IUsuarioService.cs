@@ -16,5 +16,11 @@ namespace CadastroProduto.Service.Interfaces
         UsuarioVo Excluir(int id);
 
         UsuarioVo Update(UsuarioVo usuarioVo);
+
+        /// <summary>
+        /// Retorna todos os usuarios cadastrados paginados
+        /// </summary>
+        /// <returns></returns>
+         object GetAllUsuarios(int page, int lenght);
     }
 }

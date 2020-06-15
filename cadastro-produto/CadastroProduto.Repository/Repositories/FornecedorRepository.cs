@@ -8,27 +8,27 @@ using System.Text;
 
 namespace CadastroProduto.Repository.Repositories
 {
-    public class UsuarioRepository : BaseRepository<Usuario>, IUsuarioRepository
+    public class FornecedorRepository : BaseRepository<Fornecedor>, IFornecedorRepository
     {
-        public UsuarioRepository(CadastroProdutoContext context) : base(context)
-        { }
+        public FornecedorRepository(CadastroProdutoContext context) : base(context)
+        {}
 
         /// <summary>
-        /// Retorna todos os usuario cadastrados com paginação
+        /// Retorna todos os fornecedores cadastrados com paginação
         /// </summary>
         /// <param name="page"></param>
-        /// <param name="lenght"></param>
+        /// <param name="length"></param>
         /// <returns></returns>
-        public List<Usuario> GetUsuarios(int page, int lenght)
+        public List<Fornecedor> GetFornecedor(int page, int length)
         {
             using (var db = new CadastroProdutoContext())
             {
-                var lQuery = (from Usuario in db.Usuario.AsNoTracking()
-                              where Usuario.EXCLUIDO == 0
-                              select Usuario)
+                var lQuery = (from Fornecedor in db.Fornecedor.AsNoTracking()
+                              where Fornecedor.EXCLUIDO == 0
+                              select Fornecedor)
                               .OrderByDescending(x => x.NOME)
-                              .Skip((page - 1) * lenght)
-                              .Take(lenght)
+                              .Skip((page - 1) * length)
+                              .Take(length)
                               .ToList();
 
                 return lQuery;
@@ -43,11 +43,11 @@ namespace CadastroProduto.Repository.Repositories
         {
             using (var db = new CadastroProdutoContext())
             {
-                var lQuery = (from Usuario in db.Usuario.AsNoTracking()
-                              where Usuario.EXCLUIDO == 0
-                              select new Usuario
+                var lQuery = (from Fornecedor in db.Fornecedor.AsNoTracking()
+                              where Fornecedor.EXCLUIDO == 0
+                              select new Fornecedor
                               {
-                                  ID = Usuario.ID
+                                  ID = Fornecedor.ID
                               }).ToList();
                 return lQuery.Count();
             }

@@ -1,10 +1,12 @@
-﻿using CadastroProduto.DataVo.Converters;
-using CadastroProduto.DataVo.ValueObjects;
-using CadastroProduto.Domain.Entities;
-using CadastroProduto.Service.Interfaces;
-using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using CadastroProduto.DataVo.Converters;
+using CadastroProduto.DataVo.ValueObjects;
+using CadastroProduto.Service.Interfaces;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace cadastro_produto.Controllers
 {
@@ -12,30 +14,28 @@ namespace cadastro_produto.Controllers
     [ApiController]
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
-    public class UsuarioController : ControllerBase
+    public class FornecedorController : ControllerBase
     {
-        private readonly IUsuarioService _usuarioService;
-        private readonly UsuarioConverters _usuarioConverter;
+        private readonly IFornecedorService _fornecedorService;
+        private readonly FornecedorConverters _fornecedorConverters;
 
-
-        public UsuarioController(IUsuarioService usuarioService, UsuarioConverters usuarioConverter)
+        public FornecedorController(IFornecedorService fornecedorService, FornecedorConverters fornecedorConverters)
         {
-            _usuarioService = usuarioService;
-            _usuarioConverter = usuarioConverter;
+            _fornecedorService = fornecedorService;
+            _fornecedorConverters = fornecedorConverters;
         }
 
         /// <summary>
-        /// Inserir um novo usuario
+        /// Adiciona um novo fornecedor
         /// </summary>
-        /// <param name="usuario"></param>
+        /// <param name="produtoVo"></param>
         /// <returns></returns>
         [HttpPost]
-        public ActionResult<Usuario> Post ([FromBody]UsuarioVo usuarioVo)
+        public IActionResult Post([FromBody] FornecedorVo fornecedorVo)
         {
             try
             {
-                var ret = _usuarioService.Add(_usuarioConverter.Parse(usuarioVo));
-
+                var ret = _fornecedorService.Add(_fornecedorConverters.Parse(fornecedorVo));
                 return Ok(ret);
             }
             catch (ArgumentNullException e)
@@ -49,29 +49,7 @@ namespace cadastro_produto.Controllers
         }
 
         /// <summary>
-        /// Retorna todos os usuarios cadastrados
-        /// </summary>
-        /// <returns></returns>
-        [HttpGet("Page/{page}/Lenght/{lenght}")]
-        public ActionResult Get(int page, int lenght)
-        {
-            try
-            {
-                var ret = _usuarioService.GetAllUsuarios(page, lenght);
-                return Ok(ret);
-            }
-            catch (ArgumentNullException e)
-            {
-                return NotFound(e.Message);
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message + " | " + e.InnerException.Message);
-            }
-        }
-
-        /// <summary>
-        /// Exlui um usuario
+        /// Exclui um fornecedor
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -80,25 +58,7 @@ namespace cadastro_produto.Controllers
         {
             try
             {
-                var ret = _usuarioService.Excluir(id);
-                return Ok(ret);
-            }
-            catch (ArgumentNullException e)
-            {
-                return NotFound(e.Message);
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message + " | " + e.InnerException.Message);
-            }
-        }
-
-        [HttpPut("User/{usuario}")]
-        public ActionResult Update([FromBody] UsuarioVo usuario)
-        {
-            try
-            {
-                var ret = _usuarioService.Update(usuario);
+                var ret = _fornecedorService.Excluir(id);
                 return Ok(ret);
             }
             catch (ArgumentNullException e)
@@ -112,15 +72,60 @@ namespace cadastro_produto.Controllers
         }
 
         /// <summary>
-        /// Retorna usuario por id
+        /// Edita um fornecedor
         /// </summary>
+        /// <param name="produtoVo"></param>
         /// <returns></returns>
-        [HttpGet("Id/{id}")]
-        public ActionResult GetById(int id)
+        [HttpPut("Forn/{fornecedorVo}")]
+        public ActionResult Update([FromBody] FornecedorVo fornecedorVo)
         {
             try
             {
-                var ret = _usuarioConverter.Parse(_usuarioService.GetById(id));
+                var ret = _fornecedorService.Update(fornecedorVo);
+                return Ok(ret);
+            }
+            catch (ArgumentNullException e)
+            {
+                return NotFound(e.Message);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message + " | " + e.InnerException.Message);
+            }
+        }
+
+        /// <summary>
+        /// Retorna todos os fornecedores cadastrados
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("Page/{page}/Length/{length}")]
+        public ActionResult Get(int page, int length)
+        {
+            try
+            {
+                var ret = _fornecedorService.GetAllFornecedores(page, length);
+                return Ok(ret);
+            }
+            catch (ArgumentNullException e)
+            {
+                return NotFound(e.Message);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message + " | " + e.InnerException.Message);
+            }
+        }
+
+        /// <summary>
+        /// Retorna todos os fornecedores cadastrados
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public ActionResult GetAll()
+        {
+            try
+            {
+                var ret = _fornecedorService.GetAll().Where(x => x.EXCLUIDO == 0);
                 return Ok(ret);
             }
             catch (ArgumentNullException e)

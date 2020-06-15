@@ -12,5 +12,6 @@ namespace CadastroProduto.Domain.Entities
         [Key]
         public int ID { get; set; }
         public string NOME { get; set; }
+        public int EXCLUIDO { get; set; }
     }
 }

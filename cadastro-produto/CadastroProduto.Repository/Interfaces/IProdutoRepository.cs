@@ -5,20 +5,18 @@ using System.Text;
 
 namespace CadastroProduto.Repository.Interfaces
 {
-    public interface IUsuarioRepository : IBaseRepository<Usuario>
+    public interface IProdutoRepository : IBaseRepository<Produto>
     {
         /// <summary>
-        /// Retorna todos os usuario cadastrados com paginação
+        /// Retornar todas os produtos cadastrados 
         /// </summary>
-        /// <param name="page"></param>
-        /// <param name="lenght"></param>
         /// <returns></returns>
-        List<Usuario> GetUsuarios(int page, int lenght);
+        List<Produto> GetProdutos(int page, int lenght);
 
         /// <summary>
         /// Retorna quantidade de registros 
         /// </summary>
         /// <returns></returns>
-         int GetAllCount();
+        int GetAllCount();
     }
 }

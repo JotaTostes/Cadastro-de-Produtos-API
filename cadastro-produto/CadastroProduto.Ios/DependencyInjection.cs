@@ -19,6 +19,8 @@ namespace CadastroProduto.Ioc
         public static void InjecaoDependenciaServicos(ref IServiceCollection services)
         {
             services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<IFornecedorService, FornecedorService>();
         }
 
         /// <summary>
@@ -28,11 +30,15 @@ namespace CadastroProduto.Ioc
         public static void InjecaoDependenciaRepositorios(ref IServiceCollection services)
         {
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
         }
 
         public static void InjecaoDependenciaConverters(ref IServiceCollection services)
         {
             services.AddScoped<UsuarioConverters, UsuarioConverters>();
+            services.AddScoped<ProdutoConverters, ProdutoConverters>();
+            services.AddScoped<FornecedorConverters, FornecedorConverters>();
         }
     }
 }

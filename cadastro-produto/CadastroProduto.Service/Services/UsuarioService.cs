@@ -55,5 +55,17 @@ namespace CadastroProduto.Service.Services
             return usuarioVo;
         }
 
+        /// <summary>
+        /// Retorna todos os usuarios cadastrados paginados
+        /// </summary>
+        /// <returns></returns>
+        public object GetAllUsuarios(int page, int lenght)
+        {
+            var Registros = _usuarioConverter.ParseList(_usuarioRepository.GetUsuarios(page, lenght));
+
+            int totalRegistros = _usuarioRepository.GetAllCount();
+
+            return new { Registros, totalRegistros };
+        }
     }
 }

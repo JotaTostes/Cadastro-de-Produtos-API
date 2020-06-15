@@ -15,6 +15,7 @@ namespace CadastroProduto.DataVo.Converters
             if (origin == null) return new Usuario();
             return new Usuario
             {
+                ID = origin.id,
                 NOME = origin.nome,
                 SENHA = origin.senha,
                 EMAIL = origin.email
@@ -26,6 +27,7 @@ namespace CadastroProduto.DataVo.Converters
             if (origin == null) return new UsuarioVo();
             return new UsuarioVo
             {
+                id = origin.ID,
                 nome = origin.NOME,
                 senha = origin.SENHA,
                 email = origin.EMAIL
