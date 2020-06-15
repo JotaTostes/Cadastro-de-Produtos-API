@@ -95,7 +95,7 @@ namespace cadastro_produto
                     {
                         Title = "Documentação de Apis",
                         Version = "v1.0",
-                        Description = "# Introducão\nSeja bem-vindo a documentação da API Contrato!\n",
+                        Description = "# Introducão\nSeja bem-vindo a documentação da API Cadastro de Produto!\n",
                         Contact = new OpenApiContact
                         {
                             Name = "João Guilherme"
